@@ -1,1 +1,28 @@
 first js project
+
+let,var,const 차이점
+> let var 재선언 가능의 차이
+ex)
+var name ="huemang"
+console.log(name);
+//huemang
+var name ="hueman"
+console.log(name);
+//hueman
+
+let name ="huemang"
+console.log(name);
+//huemang
+
+let name ="hueman"
+console.log(name);
+//error
+
+const와 let의 차이
+>할당 가능 차이
+ex)
+let name ="huemang"
+name ="hue" << 가능
+
+const name ="huemang"
+name ="he" <<
